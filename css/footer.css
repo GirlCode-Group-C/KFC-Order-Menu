@@ -1,0 +1,407 @@
+.footer.au .site-footer {
+    background-color: #202124;
+    padding: 5rem 0 0;
+    color: #fff;
+}
+
+.site-footer {
+    background-color: #202124;
+    padding: 5% 5% 0;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.grid-container {
+    width: 100%;
+    max-width: 1180px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer.au .site-footer .row-one {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: "National 2 Regular";
+    font-size: 14px;
+    margin: 2% 0 4%;
+}
+
+.footer.au .site-footer .row {
+    margin-top: 3%;
+}
+.site-footer .mobile-header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10%;
+    margin-bottom: 14%;
+}
+
+.footer.au .row-oneaus .header-logo-footer.mobile-header-logo {
+    margin-top: .2%;
+}
+
+.site-footer .mobile-header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10%;
+    margin-bottom: 14%;
+}
+
+a {
+    color: #f2f2f2;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.footer.au .row-oneaus .header-logo-footer.mobile-header-logo .header-logo img {
+    height: 60px;
+    width: 60px;
+}
+
+.footer.au .site-footer .row-one img {
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.site-footer .row-one img {
+    cursor: pointer;
+}
+
+.footer.au .site-footer .row-one .category-items {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 57%;
+    margin-left: 6%;
+}
+.site-footer .row-one .category-items {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 42%;
+    margin-left: 2%;
+}
+
+.footer.au .site-footer .row-one {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: "National 2 Regular";
+    font-size: 14px;
+    margin: 2% 0 4%;
+}
+
+
+
+.header-text-footer {
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 800 !important;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer.au .footer-links {
+    padding-left: 0;
+    margin-top: 0;
+    list-style: none;
+    width: 130px;
+    text-align: left;
+}
+
+.footer-links {
+    padding-left: 0;
+    margin-top: 0;
+    list-style: none;
+    width: 30%;
+    text-align: left;
+}
+
+.footer.au .site-footer .row-one .category-items li {
+    list-style-type: none;
+    padding-right: 12px;
+}
+
+.footer.au .footer-links li {
+    display: block;
+    color: #fff;
+    font-family: var(--fontFamilyRegular);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    color: #e3e3e3;
+    margin-top: 5px;
+}
+
+.site-footer .row-one .category-items li {
+    list-style-type: none;
+}
+
+.footer.au .footer-links li a {
+    padding-right: 0;
+    color: #e3e3e3;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    white-space: normal;
+}
+
+.footer.au .site-footer .row-one .category-items.row-mobile {
+    display: none;
+}
+
+.global-accordian-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+}
+
+.footer.au .site-footer .row-mobile .global-accordian-container .global-accordian-header-container {
+    padding: 17px;
+    border-top: 1px solid #494949;
+    border-bottom: 1px solid #494949;
+}
+
+.footer.au .site-footer .row-mobile .global-accordian-container .global-accordian-header-container .global-accordian-header {
+    color: #fff;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.global-accordian-container .global-accordian-header-container .global-accordian-arrow {
+    width: 8px;
+    height: 8px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.footer.au .site-footer .row-one .category-items.row-mobile {
+    display: none;
+}
+
+.footer.au .site-footer .row-one .findstore {
+    width: 11%;
+}
+
+.site-footer .row-one .findstore {
+    width: 9%;
+}
+
+.footer.au .site-footer .row-one .findstore img {
+    margin-right: 8.6%;
+}
+
+.footer.au .site-footer .row-one img {
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.footer.au .site-footer .row-one .findstore a {
+    text-decoration: underline !important;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 800 !important;
+    cursor: pointer;
+}
+
+.site-footer .row-one .findstore a {
+    text-decoration: underline !important;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footer.au .site-footer .social-btns-aus a:first-of-type {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer.au .site-footer .social-btns-aus img {
+    height: 45px;
+    width: 133px;
+}
+
+.footer.au .site-footer .row-one img {
+    cursor: pointer;
+    border-radius: 3px;
+}
+.footer.au .site-footer .row-two {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer.au .site-footer .row {
+    margin-top: 3%;
+}
+
+.footer.au .row-twoaus {
+    padding-bottom: 25px;
+}
+
+.site-footer .row-two {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 14px;
+}
+
+.site-footer .row {
+    margin-top: 3%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.no-border {
+    border: none !important;
+}
+
+.footer.au .column {
+    display: flex;
+    align-items: center;
+}
+
+.footer.au .copyright-mobile {
+    margin: auto;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+}
+
+.copyright-mobile {
+    margin: auto;
+}
+
+.footer.au .column .footer-linkview {
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 0 8px 0 0;
+    font-weight: 400;
+    opacity: .9;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.footer.au .column .footer-linkview li {
+    display: inline-block !important;
+}
+
+.footer.au .social-icons li img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer.au .column .copyright-text {
+    margin: 0;
+    font-family: "National 2 Regular";
+    font-size: 12px;
+    text-align: center;
+    opacity: .9;
+    line-height: 12px;
+    color: #dbdbdb;
+    font-weight: 400;
+}
+
+.footer.au .site-footer .row-two .social-div {
+    margin-right: 1.4%;
+}
+
+.footer.au .column {
+    display: flex;
+    align-items: center;
+}
+
+.footer.au .site-footer .social-icons {
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
+.footer.au .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.site-footer .social-icons {
+    text-align: right;
+    margin-top: 0;
+}
+
+.footer.au .social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+
+@media only screen and (min-device-width: 1200px) {
+    .footer.au .site-footer .row-one .download-app-mobile {
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 1023px) {
+    .grid-container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+    .footer.au .site-footer .download-app {
+        display: none;
+    }
+    .footer.au .site-footer .row-two .lang-div-aus {
+        width: 118px;
+    }
+}
