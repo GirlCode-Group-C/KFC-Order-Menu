@@ -24,6 +24,15 @@ li {
     text-decoration: none;
 }
 
+.plp-menu-row .plp-left-nav .outer-ul li a:hover {
+    font-family: "National 2 Medium";
+    font-weight: 800 !important;
+    letter-spacing: -.1px;
+    background-color: transparent;
+    color: #202014;
+    text-decoration: none;
+}
+
 .plp-menu-row .plp-left-nav .outer-ul li a {
     font-family: "National 2 Regular";
     font-style: normal;

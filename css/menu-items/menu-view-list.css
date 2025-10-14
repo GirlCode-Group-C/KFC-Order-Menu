@@ -1,3 +1,4 @@
+@import url(./scroll-back-to-top.css);
 .plp-menu-row .plp-right-nav .plp-sections {
     margin-top: 0;
 }
@@ -132,9 +133,21 @@
     text-overflow: ellipsis;
 }
 
+.sopac-medium-menu-container .product-container .medium-menu-product-card .menu-card-content .medium-menu-product-header {
+    font-family: "National 2 Medium";
+    color: #202124;
+    white-space: nowrap;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .sopac-medium-menu-container .product-container .medium-menu-product-card .menu-card-content .Price-and-KJ-info {
     display: block;
 }
+
+.sopac-medium-menu-container .product-container .medium-menu-product-card .medium-menu-product-image:hover {
+    transform: scale(1.05);}
 
 @media (min-width: 1023px) {
     .product-image-parent-container {
