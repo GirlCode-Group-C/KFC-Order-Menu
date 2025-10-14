@@ -1,0 +1,37 @@
+@import url(./menu-top-banner.css);
+
+
+.plp-menu-row .plp-left-nav .outer-ul li:first-child {
+    padding: .225rem 0 1.19rem;
+}
+
+.plp-menu-row .plp-left-nav .outer-ul li {
+    padding: 0 0 1.19rem;
+    outline: none !important;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+.plp-menu-row .plp-left-nav .outer-ul li a.active {
+    font-family: "National 2 Medium";
+    font-weight: 800 !important;
+    letter-spacing: -.1px;
+    background-color: transparent;
+    color: #202014;
+    text-decoration: none;
+}
+
+.plp-menu-row .plp-left-nav .outer-ul li a {
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: -.1px;
+    color: #494949;
+    text-decoration: none;
+}
+
