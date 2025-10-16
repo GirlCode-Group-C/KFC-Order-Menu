@@ -1,14 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order KFC Online Menu | KFC Menu For Sharing</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="icon" href="https://order.kfc.co.za/favicon.ico">
+    
+<meta charset="UTF-8">
+    
+<!-- Responsive viewport for mobile scaling -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+<!-- Page title (browser tab & SEO) -->
+<title>Order KFC Online Menu | KFC Menu For Sharing</title>
+    
+ 
+<!-- CSS File for the Head -->
+
+<link rel="stylesheet" href="./css/styles.css" />
+    
+<!-- Favicon -->
+<link rel="icon" href="https://order.kfc.co.za/favicon.ico">
+
 </head>
 
+
+<!-- Visible application content starts -->
 <body>
     <div class="app-root">
         <div class="setLocationData " data-testid="banner-setLocation"><img loading="lazy"
@@ -20,26 +35,36 @@
         </div>
         <hr role="presentation" class="setLocationdivider">
 
-        <div id="header-container">
+        
+<!-- Header/Nav: primary site navigation -->
+<div id="header-container">
             <div class="root-header au SOUTH AFRICA" data-testid="HeaderItems-component" role="banner"
                 data-id="root-header">
                 <div>
                     <div class="sc-fqkvVR root-head root-header-view ">
                         <button class="header-item-buttons header-hamburger-icon" aria-label="Close"
-                            data-testid="hamburger-button">
+                            
+<!-- Mobile menu toggle -->
+data-testid="hamburger-button">
                             <img loading="lazy" src="https://order.kfc.co.za/static/media/MenuIcon.e607771f.svg"
                                 alt="hamburger-icon">
                         </button>
-                        <div data-testid="kfc-logo" class="header-logo-mobile ">
+                        <div 
+<!-- Logo (usually links to home) -->
+data-testid="kfc-logo" class="header-logo-mobile ">
                             <img loading="lazy" src="https://order.kfc.co.za/static/media/kfcLogo.492728c6.svg"
                                 alt="KFC LOGO">
                         </div>
-                        <div class="menu-links-container">
+                        
+<!-- Primary nav links -->
+<div class="menu-links-container">
                             <div class="menu-link" data-testid="menu-link-Menu">
                                 <div data-testid="menu-name-Menu" class="menu-link-name">Menu</div>
                                 <div class="menu-link-image"
                                     style="background-image: url(&quot;?h=undefined&amp;w=undefined&quot;);"></div>
                             </div>
+
+
                             <div class="menu-link" data-testid="menu-link-Promos &amp; Rewards">
                                 <div data-testid="menu-name-Promos &amp; Rewards" class="menu-link-name">Promos &amp;
                                     Rewards</div>
@@ -48,7 +73,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="right-nav-container">
+                        
+<!-- Utilities: language, account, cart -->
+<div class="right-nav-container">
                             <div data-testid="language-selector-container"
                                 class="language-selector-container no-border"></div>
                             <div class="sign-in-container" data-id="header-sign-in">
@@ -56,6 +83,7 @@
                                         src="//images.ctfassets.net/0p42pznmbeec/1GXig4HI0qC3zWd5WU3gut/928127c22d128f20c2ed0c8716b87ef7/Account_Icon.svg?h=36&amp;w=36&amp;fm=webp&amp;fit=fill"
                                         alt="" class="account-icon"><span class="sign-in-text ">Sign In</span></div>
                             </div>
+<!-- Cart class -->                            
                             <div class="cart-image" data-testid="cart-image">
                                 <div class="shopping-cart " data-testid="normal-icon" name="CART">
                                     <div class="lines"><span class="line first"></span><span
@@ -69,7 +97,9 @@
                     <div class="border"> </div>
                 </div>
             </div>
-            <div id="startorder-container" data-testid="StartOrder-component" tabindex="-1">
+<!-- Start Order class -->               
+            
+<div id="startorder-container" data-testid="StartOrder-component" tabindex="-1">
                 <div data-testid="start-order-items" class="sc-dcJsrY order-pick-del headerBottom au"
                     id="start-order-component">
                     <div class="headBottomParent">
@@ -83,7 +113,9 @@
         </div>
 
         <!-- Menu starts's here -->
-        <div class="wrapper-base-component">
+        
+<!-- Main content wrapper -->
+<div class="wrapper-base-component">
             <div class="plp-container plp-au-container grid-container">
                 <div data-testid="menus-container" class="plp-menu-row row">
                     <div class="sc-gsFSXq ktkloT plp-left-nav plp-side-panel col-md-3">
@@ -91,7 +123,9 @@
                                 src="https://order.kfc.co.za/static/media/Stripes_OffersIcon.891e24c1.svg" alt=""
                                 class="stripes-img"></div>
                         <h2 class="kfc-menu-title">menu</h2>
-                        <ul class="outer-ul">
+                        
+<!-- Category list (links to sections) -->
+<ul class="outer-ul">
                             <li id="category-name-C-CAT103"><a href="#New: Limited Time" data-testid="category-click-test"
                                     class="active ">New:
                                     Limited Time</a></li>
@@ -124,8 +158,12 @@
                                     class="false ">Drinks</a></li>
                         </ul>
                     </div>
-                    <div class="plp-right-nav col-md-9">
-                        <div data-testid="plp-promo-section-testid"
+                    
+<!-- Product area (promos, search, listings) -->
+<div class="plp-right-nav col-md-9">
+                        <div 
+<!-- Promo banner (locationâ€‘aware) -->
+data-testid="plp-promo-section-testid"
                             class="plp-promo-section false plp-promo-non-localized col-sm-12">
                             <div id="promosRewards" class="promos-container  " data-testid="promos-container-test">
                                 <div class="promosCard-container grid-container plp-promosCard-container false"
@@ -150,7 +188,9 @@
                             </div>
                         </div>
                         <div class="plp-filters false col-sm-12">
-                            <div data-testid="menu-search-testid" class="search-menu"><input
+                            <div data-testid="menu-search-testid" 
+<!-- Menu search input -->
+class="search-menu"><input
                                     data-testid="check-input-box" type="" name="searchInput" class="search-menu-input"
                                     placeholder="Search our menu" aria-label="Search our menu" value=""><span
                                     class="search-icon"><img loading="lazy"
@@ -167,7 +207,9 @@
                                         <div class="discount-product-ribbon"></div><span
                                             class="discount-ribbon-text"></span>
                                         <div class="product-container pickup">
-                                            <div class="plp-item-card medium-menu-product-card product-card-active"
+                                            <div 
+<!-- Product card component -->
+class="plp-item-card medium-menu-product-card product-card-active"
                                                 data-testid="click-allow-on-product-I-CAT103-717" id="I-CAT103-717">
                                                 <div class="product-image-parent-container"
                                                     style="background-image: url(&quot;//images.ctfassets.net/0p42pznmbeec/5eQUTHbA3KkELbEgYrfPhy/6844c50671906dd88bde90f22982de6e/White_-_BG.png?h=600&amp;w=800&amp;fm=webp&amp;fit=fill&quot;);">
@@ -184,9 +226,13 @@
                                                     <div data-testid="menu-card-content-pdp-nav"
                                                         class="menu-card-content">
                                                         <div data-testid="plp-menu-card-header"
-                                                            class="menu-product-header">Family Fiesta</div><span
+                                                            
+<!-- Product title -->
+class="menu-product-header">Family Fiesta</div><span
                                                             class="menu-vegOrNonVeg "></span>
-                                                        <div class="Price-and-KJ-info"></div>
+                                                        <div 
+<!-- Price & kJ info (populated dynamically) -->
+class="Price-and-KJ-info"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -280,7 +326,7 @@
                                                     <div data-testid="menu-card-content-pdp-nav"
                                                         class="menu-card-content">
                                                         <div data-testid="plp-menu-card-header"
-                                                            class="menu-product-header">Jalapeño Crunch Master</div>
+                                                            class="menu-product-header">JalapeÃ±o Crunch Master</div>
                                                         <span class="menu-vegOrNonVeg "></span>
                                                         <div class="Price-and-KJ-info"></div>
                                                     </div>
@@ -1488,7 +1534,7 @@
                                                     <div data-testid="menu-card-content-pdp-nav"
                                                         class="menu-card-content">
                                                         <div data-testid="plp-menu-card-header"
-                                                            class="medium-menu-product-header">Jalapeño Crunch Master
+                                                            class="medium-menu-product-header">JalapeÃ±o Crunch Master
                                                         </div><span class="medium-menu-vegOrNonVeg "></span>
                                                         <div class="Price-and-KJ-info"></div>
                                                     </div>
@@ -3918,9 +3964,9 @@
                                                 href="https://assets.ctfassets.net/0p42pznmbeec/MNnmWXTrXD8zoXsiR6nsI/3bf85dc19d79baae6f625f60b7f20d47/Privacy_Policy_Zambia.pdf">Zambia
                                                 Privacy Addendum </a></li>
                                         <li><a class="support-links-menu" target="_blank" tabindex="0"
-                                                data-testid="listItems-component-Cookie &amp; Ads Policy’ "
+                                                data-testid="listItems-component-Cookie &amp; Ads Policyâ€™ "
                                                 href="https://assets.ctfassets.net/0p42pznmbeec/25bTV1eukDVpOkSGpXjDwW/efcf19eadadc653ab9c1d92cea6c12b1/Yum__Brands_-_Cookie_Policy.pdf">Cookie
-                                                &amp; Ads Policy’ </a></li>
+                                                &amp; Ads Policyâ€™ </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -4002,7 +4048,7 @@
                                                 href="/PromotionCompetitionTC">Promotion &amp; Competition T's &amp;
                                                 C's</a></li>
                                     </ul>
-                                    <p class="copyright-text">Copyright © KFC South Africa. 2023 All Rights Reserved.
+                                    <p class="copyright-text">Copyright Â© KFC South Africa. 2023 All Rights Reserved.
                                         build pwa-2507-0-1_239ff066</p>
                                 </div>
                             </div>
@@ -4036,5 +4082,6 @@
     </div>
 
 </body>
+
 
 </html>
