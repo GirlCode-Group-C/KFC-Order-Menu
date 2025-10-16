@@ -1,10 +1,20 @@
+/* imports: assemble header, footer,
+ and menu styles in one entry file */
+
 @import url(./header.css);
 @import url(./footer.css);
 @import url(./menu.css);
 
 html {
+
+/* smooth scrolling for internal anchors */
+
   scroll-behavior: smooth;
 }
+
+/* Base typography & reset: system fonts,
+ color, and background */
+
 
 body {
     margin: 0;
@@ -16,6 +26,10 @@ body {
     text-align: left;
     background-color: #fff;
 }
+
+
+/* show pointer cursor for clickable controls */
+
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;

@@ -1,9 +1,14 @@
+
+/* Top banner icon: location pin sizing */
+
 .setLocationData .google-location-img {
     height: 18px;
     width: 13px;
     margin-right: 10px;
     margin-top: -1px;
 }
+
+/* Top banner: centers content and aligns 'Set Location' CTA(button style for location set) */
 
 .setLocationData {
     justify-content: center;
@@ -13,6 +18,7 @@
     height: 50px;
     margin-right: 1.2%;
 }
+
 
 .setLocationData .setLocation-button {
     height: 32px;
@@ -39,6 +45,8 @@
     background-color: #a5a5a5 !important;
 }
 
+/* Visual divider between banner and header */
+
 .setLocationdivider {
     margin: 0;
     border-top: 1px solid #dbdbdb;
@@ -59,6 +67,8 @@
     overflow-x: initial;
 }
 
+/* Header row: constrained width flex layout for hamburger, logo, nav, and utilities */
+
 .root-head {
     height: 100px;
     background-color: rgb(255, 255, 255);
@@ -67,6 +77,8 @@
     display: flex;
     overflow-x: hidden;
 }
+
+/* border to separate header from content */
 
 .border {
     border: 1px solid #dee2e6 !important;
@@ -231,6 +243,8 @@
     transform-origin: top left;
 }
 
+/* Cart basket: icon hitbox sizing */
+
 .root-header.au .root-header-view .right-nav-container .shopping-cart .basket {
     width: 50px;
     height: 50px;
@@ -250,6 +264,8 @@
 }
 
 /* End of Nav Menu */
+
+/* Sub-header strip: dark band for order/pickup/delivery actions */
 
 .order-pick-del {
     display: flex;
@@ -285,6 +301,10 @@
     margin: auto 20px auto auto;
 }
 
+
+
+/* Primary button: brand red background with white text */
+
 .button-contained[data-type=primary] {
     background-color: #e4002b;
     color: #fff;
@@ -313,6 +333,9 @@
     transition-timing-function: 
     cubic-bezier(.15, .45, .6, 1);
 }
+
+
+/* Hover effect: slightly darker red for feedback */
 
 .button-contained:hover{
     background-color: #b30021;

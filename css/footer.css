@@ -1,3 +1,4 @@
+/* Footer: dark theme + spacing baseline */
 .footer.au .site-footer {
     background-color: #202124;
     padding: 5rem 0 0;
@@ -12,6 +13,9 @@
     color: #fff;
 }
 
+
+/* Layout: center content and set max width */
+
 .grid-container {
     width: 100%;
     max-width: 1180px;
@@ -19,6 +23,8 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+/* Row one: logo, categories, app badges, and store finder */
 
 .footer.au .site-footer .row-one {
     display: inline-flex;
@@ -101,6 +107,7 @@ a {
 }
 
 
+/* Footer section headings */
 
 .header-text-footer {
     font-family: "National 2 Regular";
@@ -165,6 +172,8 @@ a {
 .footer.au .site-footer .row-one .category-items.row-mobile {
     display: none;
 }
+
+/* Mobile-only accordion: collapsible link groups */
 
 .global-accordian-container {
     width: 100%;
@@ -232,6 +241,9 @@ a {
     cursor: pointer;
 }
 
+/* App store/social badges: image dimensions and spacing */
+
+
 .footer.au .site-footer .social-btns-aus a:first-of-type {
     display: block;
     margin-bottom: 20px;
@@ -246,6 +258,9 @@ a {
     cursor: pointer;
     border-radius: 3px;
 }
+
+/* Row two: language/legal/social and copyright strip */
+
 .footer.au .site-footer .row-two {
     display: inline-flex;
     justify-content: space-between;

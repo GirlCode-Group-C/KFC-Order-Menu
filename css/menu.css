@@ -1,10 +1,15 @@
 
+/* imports category and item list styles */
+
 @import url(./menu-categories.css);
 
 
+/* Main wrapper: ensures minimum viewport height */
 .wrapper-base-component {
     min-height: 400px;
 }
+
+/* PLP container: edge-to-edge layout (override default padding) */
 
 .plp-au-container.grid-container {
     padding-left: 0 !important;
@@ -15,10 +20,13 @@
     position: relative;
 }
 
+/* Sticky context: keeps category rail in view while scrolling */
+
 .plp-container {
     position: sticky;
 }
 
+/* PLP row: lock layout to avoid wrapping between rail and content */
 
 .plp-menu-row {
     margin-right: 0 !important;
@@ -31,6 +39,8 @@
     margin-right: -15px;
     margin-left: -15px;
 }
+
+/* Category rail: sticky offset tuned to header height */
 .plp-menu-row .plp-left-nav {
     height: -moz-fit-content;
     height: fit-content;
@@ -44,6 +54,8 @@
     margin-left: 0.8%;
     top: 168px;
 }
+
+/* Decorative header strip above products */
 
 .plp-stripes-section {
     width: 100%;
@@ -61,6 +73,8 @@ img {
     border-style: none;
 }
 
+/* Left rail title: uppercase 'menu' label */
+
 .plp-menu-row .plp-left-nav .kfc-menu-title {
     font-family: "National 2 Condensed";
     font-style: normal;
@@ -72,6 +86,7 @@ img {
     color: #000;
 }
 
+/* Desktop container padding tweaks */
 
 @media (min-width: 1023px) {
     .grid-container {
@@ -79,6 +94,8 @@ img {
         padding-right: 1.25rem;
     }
 }
+
+/* Grid helper: 25% width at md screens */
 
 @media (min-width: 768px) {
     .col-md-3 {
