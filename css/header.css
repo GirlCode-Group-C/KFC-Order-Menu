@@ -1,0 +1,364 @@
+
+/* Top banner icon: location pin sizing */
+
+.setLocationData .google-location-img {
+    height: 18px;
+    width: 13px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+
+/* Top banner: centers content and aligns 'Set Location' CTA(button style for location set) */
+
+.setLocationData {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 9px 0;
+    height: 50px;
+    margin-right: 1.2%;
+}
+
+
+.setLocationData .setLocation-button {
+    height: 32px;
+    font-size: 12px;
+    width: auto;
+    font-family: "National 2 Medium";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2px;
+    padding: 5px 10px;
+    margin-left: 23px;
+    color: #fff;
+    background-color: #202124;
+}
+
+
+.setLocationData .setLocation-button {
+    color: #202124 !important;
+    background-color: #fff !important;
+    border-radius: 20px !important;
+}
+
+.setLocationData .setLocation-button:hover{
+    background-color: #a5a5a5 !important;
+}
+
+/* Visual divider between banner and header */
+
+.setLocationdivider {
+    margin: 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+
+/* Header Starts here */
+
+#header-container, #header-container-hidden {
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.root-header.au .root-header-view {
+    overflow-x: initial;
+}
+
+/* Header row: constrained width flex layout for hamburger, logo, nav, and utilities */
+
+.root-head {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    max-width: 1180px;
+    margin: 0px auto;
+    display: flex;
+    overflow-x: hidden;
+}
+
+/* border to separate header from content */
+
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+
+.root-header.au .root-header-view .header-item-buttons.header-hamburger-icon {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0 19px 0 20px;
+    height: 45px;
+}
+
+.root-header.au .root-header-view .header-item-buttons.header-hamburger-icon img {
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+.root-header.au .root-header-view .header-logo-mobile {
+    margin: auto 2.8% auto 0;
+    display: inline-block;
+}
+
+.root-header.au .root-header-view .header-logo-mobile img {
+    width: 72px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.root-header.au .root-header-view .menu-links-container {
+    display: flex;
+    flex-direction: row;
+    height: 17px;
+    margin: auto 0;
+}
+
+.root-header.au .root-header-view .menu-links-container .menu-link {
+    margin-right: 40px;
+}
+
+.root-header.au .root-header-view .menu-links-container .menu-link .menu-link-name {
+    font-family: "National 2 Extrabold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    color: #202124;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.root-header.au .root-header-view .menu-links-container .menu-link:last-child {
+    margin-bottom: 0;
+}
+
+.root-header.au .root-header-view .menu-links-container .menu-link:last-of-type {
+    margin-right: 0;
+}
+
+.root-header.au .root-header-view .right-nav-container {
+    height: 42px;
+    margin: 29px 0 29px auto;
+    display: flex;
+    width: 17%;
+}
+
+.root-header.au .root-header-view .right-nav-container .language-selector-container.no-border {
+    border: none;
+}
+
+.root-header.au .root-header-view .right-nav-container .language-selector-container {
+    padding-left: 0;
+    display: flex;
+    border-right: 1px solid #e3e3e3;
+    padding-right: 6%;
+    margin: auto 0;
+}
+
+.root-header.au .root-header-view .right-nav-container .sign-in-container {
+    margin: auto 0;
+    border-right: 1px solid #e3e3e3;
+    display: flex;
+}
+
+.root-header.au .root-header-view .right-nav-container .sign-in-container .account-container {
+    margin: -3px 5px 0 13px;
+    min-width: 105px;
+    width: auto;
+    line-height: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.root-header.au .root-header-view .right-nav-container .sign-in-container .account-container .account-icon {
+    width: 18px;
+    height: 18px;
+    margin-top: -4px;
+}
+
+.root-header.au .root-header-view .right-nav-container .sign-in-container .account-container .sign-in-text {
+    font-family: "National 2 Medium";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 14px;
+    align-items: center;
+    text-align: right;
+    color: #202124;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.root-header.au .root-header-view .right-nav-container .cart-image {
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+.root-header.au .root-header-view .right-nav-container .shopping-cart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.root-header.au .root-header-view .right-nav-container .shopping-cart .lines {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 34px;
+}
+
+.root-header.au .root-header-view .right-nav-container .shopping-cart .lines span {
+    height: 2px;
+    width: 0;
+    background: #000;
+    transform: rotate(-120deg);
+    transform-origin: top left;
+}
+
+.root-header.au .root-header-view .right-nav-container .shopping-cart .lines span.second {
+    transform: rotate(-90deg);
+}
+
+.root-header.au .root-header-view .right-nav-container .shopping-cart .lines span {
+    height: 2px;
+    width: 0;
+    background: #000;
+    transform: rotate(-120deg);
+    transform-origin: top left;
+}
+
+.root-header.au .root-header-view .right-nav-container .shopping-cart .lines span.third {
+    transform: rotate(-60deg);
+}
+
+.root-header.au .root-header-view .right-nav-container .shopping-cart .lines span {
+    height: 2px;
+    width: 0;
+    background: #000;
+    transform: rotate(-120deg);
+    transform-origin: top left;
+}
+
+/* Cart basket: icon hitbox sizing */
+
+.root-header.au .root-header-view .right-nav-container .shopping-cart .basket {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.basket-link {
+    color: inherit;
+    border: none;
+    line-height: 55px;
+    text-decoration: none;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "National 2 Condensed";
+}
+
+/* End of Nav Menu */
+
+/* Sub-header strip: dark band for order/pickup/delivery actions */
+
+.order-pick-del {
+    display: flex;
+    background-color: rgb(32, 33, 36);
+    height: 68px;
+}
+
+.headerBottom.au .headBottomParent {
+    display: flex;
+    margin: auto;
+}
+
+.headerBottom, .headerTrackOrderPanel, .plpHeaderBottom {
+    display: flex;
+    background: #202124;
+    height: 68px;
+}
+.headBottomParent {
+    display: flex;
+    margin: .5% auto;
+    align-items: center;
+}
+
+.headerBottom.au .headBottomParent .headBottomTxt {
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: auto 20px auto auto;
+}
+
+
+
+/* Primary button: brand red background with white text */
+
+.button-contained[data-type=primary] {
+    background-color: #e4002b;
+    color: #fff;
+}
+
+.button-contained {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button-contained {
+    height: 2.75rem;
+    padding: 0 2.5rem;
+    border-radius: 1.4rem;
+    font-size: .8rem;
+    line-height: 2.75rem;
+    font-family: "Nation 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    transition-property: background-color, color;
+    transition-duration: .35s;
+    transition-timing-function: 
+    cubic-bezier(.15, .45, .6, 1);
+}
+
+
+/* Hover effect: slightly darker red for feedback */
+
+.button-contained:hover{
+    background-color: #b30021;
+
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+@media (min-width: 1023px) {
+    .root-header.au .root-header-view .header-item-buttons.header-hamburger-icon {
+        display: none;
+    }
+        .root-header.au .root-header-view .right-nav-container {
+        min-width: 245px;
+    }
+    .root-header.au .root-header-view .right-nav-container .language-selector-container {
+        position: relative;
+        left: 0;
+        top: -7%;
+        padding-right: 20px;
+    }
+
+}

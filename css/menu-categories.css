@@ -1,0 +1,34 @@
+
+/* Category layer: import item card/list styles */
+
+@import url(./menu-items/menu-item-list.css);
+
+
+/* Category list: unstyled list used as anchor navigation */
+
+.plp-menu-row .plp-left-nav .outer-ul 
+{
+    padding-left: 0;
+    list-style: none;
+    justify-content: "space-around";
+}
+
+dl, ol, ul 
+{
+    margin-top: 0;
+}
+
+ul 
+{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+address, dl, ol, ul 
+{
+    margin-bottom: 1rem;
+}

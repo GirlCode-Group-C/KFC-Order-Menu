@@ -1,0 +1,106 @@
+
+/* imports category and item list styles */
+
+@import url(./menu-categories.css);
+
+
+/* Main wrapper: ensures minimum viewport height */
+.wrapper-base-component {
+    min-height: 400px;
+}
+
+/* PLP container: edge-to-edge layout (override default padding) */
+
+.plp-au-container.grid-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.plp-au-container {
+    position: relative;
+}
+
+/* Sticky context: keeps category rail in view while scrolling */
+
+.plp-container {
+    position: sticky;
+}
+
+/* PLP row: lock layout to avoid wrapping between rail and content */
+
+.plp-menu-row {
+    margin-right: 0 !important;
+    flex-wrap: nowrap !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Category rail: sticky offset tuned to header height */
+.plp-menu-row .plp-left-nav {
+    height: -moz-fit-content;
+    height: fit-content;
+    top: 170px;
+}
+
+.ktkloT {
+    height: 100vh;
+    width: 18vw;
+    position: sticky;
+    margin-left: 0.8%;
+    top: 168px;
+}
+
+/* Decorative header strip above products */
+
+.plp-stripes-section {
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+    z-index: 111;
+    margin-bottom: 6.5%;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+/* Left rail title: uppercase 'menu' label */
+
+.plp-menu-row .plp-left-nav .kfc-menu-title {
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+    color: #000;
+}
+
+/* Desktop container padding tweaks */
+
+@media (min-width: 1023px) {
+    .grid-container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+/* Grid helper: 25% width at md screens */
+
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
